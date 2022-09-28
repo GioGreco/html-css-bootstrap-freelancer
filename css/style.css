@@ -65,14 +65,6 @@ body{
     vertical-align: middle;
 }
 
-header .nav-link{
-    color: var(--white100);
-}
-
-header .hover-green:hover{
-    color: var(--pastel-green);
-}
-
 /* MY FONTS */
 
 .gg-fs-medium{
@@ -109,6 +101,14 @@ header{
     top: 0;
     width: 100%;
     z-index: 800;
+}
+
+header .nav-link{
+    color: var(--white100);
+}
+
+header .hover-green:hover{
+    color: var(--pastel-green);
 }
 
 /* MAIN */
