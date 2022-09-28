@@ -12,6 +12,13 @@
     --white-text: #F3FBFA;
     --white100: #ffffff;
     --black100: #000000;
+
+    --gg-fs-smaller: 12px;
+    --gg-fs-small: 14px;
+    --gg-fs-medium: 20px;
+    --gg-fs-large: 25px;
+    --gg-fs-larger: 30px;
+    --gg-fs-36: 36px;
 }
 
 /* COMMON */
@@ -36,15 +43,36 @@ body{
     background-color: var(--lightgrey);
 }
 
-/* MAIN */
-#hero{
-    padding-top: 100px;
+.line-h{
+    height: 3px;
+    background-color: var(--white100);
+    width: 4.5rem;
 }
 
-img.avatar{
+.container-tight{
     width: 70%;
-    max-width: 100%;
 }
+
+/* MY FONTS */
+
+.gg-fs-medium{
+    font-size: var(--gg-fs-medium);
+}
+
+.gg-fs-large{
+    font-size: var(--gg-fs-large);
+}
+
+.gg-fs-36{
+    font-size: var(--gg-fs-36);
+}
+
+/* MY BACKGROUND COLORS */
+
+.gg-bg-black{
+    background-color: var(--black100);
+}
+
 /* HEADER */
 
 header{
@@ -53,4 +81,21 @@ header{
     height: 90px;
     top: 0;
     width: 100%;
+}
+
+/* MAIN */
+#hero{
+    padding-top: 100px;
+}
+
+#hero img.avatar{
+    width: 70%;
+    max-width: 100%;
+}
+
+/* FOOTER */
+
+footer #footer-top .social-icon{
+    width: 50px;
+    height: 50px;
 }
