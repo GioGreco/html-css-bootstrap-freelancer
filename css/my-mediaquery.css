@@ -1,11 +1,20 @@
 @media screen and (min-width: 768px){
     main .line-h{
-        width: 5.2rem;
+        width: 6rem;
+    }
+    main #hero h1{
+        font-size: var(--gg-fs-60);
+    }
+    main #portfolio h2, main #about h2, main #contact h2{
+        font-size: var(--gg-fs-50);
+    }
+    main #hero span{
+        font-size: var(--gg-fs-large);
     }
 }
 
 @media screen and (min-width: 992px){
     main .line-h{
-        width: 6rem;
+        width: 8rem;
     }
 }
